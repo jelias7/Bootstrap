@@ -80,14 +80,155 @@
   </table>
     </div>
     <div class="col-sm-1">
-     <h2>Imagen</h2>
-  <p>Ejemplo de una en circulo:</p>            
+     <h2>Imagen</h2>           
   <img src="https://66.media.tumblr.com/799a89e48b02adebb8c78b0dcb7cfdf4/tumblr_pc1vnzLfs91sohz2fo1_1280.jpg" class="rounded-circle" width="304" height="236"> 
     </div>
-        <div class="col-md-5">
-
-        </div>
 </div>
+    <div class="row">
+    <div class="col-xs-8">
+    <div class="alert alert-success">
+    <strong>Success!</strong> Guardado con exito
+  </div>
+  <div class="alert alert-info">
+    <strong>Info!</strong> <a href="#" class="alert-link">Este para la informacion Click!</a>
+  </div>
+  <div class="alert alert-warning">
+    <strong>Warning!</strong> Error inesperado
+  </div>
+  <div class="alert alert-danger">
+    <strong>Danger!</strong> Peligro en el sistema
+  </div>
+  <div class="alert alert-primary">
+    <strong>Primary!</strong> Algo importante ha pasado
+  </div>
+  <div class="alert alert-secondary">
+    <strong>Secondary!</strong> <a href="#" class="alert-link">Dale click aqui</a>
+  </div>
+  <div class="alert alert-dark">
+    <strong>Dark!</strong> Meh
+  </div>
+  <div class="alert alert-light">
+    <strong>Light!</strong> Meh x2
+  </div>
+        </div>
+        <div class="col-md-4">
+            <button type="button" class="btn btn-lg">Basic</button>
+            <button type="button" class="btn btn-primary active">Primary<span class="badge badge-light">10</span></button>
+            <button type="button" class="btn btn-secondary btn-sm">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-info"><span class="spinner-border spinner-border-sm"></span>Info</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-dark disabled">Dark</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-link">Link</button> 
+             <div class="btn-group btn-group-lg">
+              <button type="button" class="btn btn-primary">Universidad</button>
+              <button type="button" class="btn btn-success">Catolica</button>
+              <button type="button" class="btn btn-danger">Nordestana</button>
+            </div> 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <span class="badge badge-primary">Primary</span>
+            <span class="badge badge-secondary">Secondary</span>
+            <span class="badge badge-pill badge-success">Success</span>
+            <span class="badge badge-danger">Danger</span>
+            <span class="badge badge-warning">Warning</span>
+            <span class="badge badge-info">Info</span>
+            <span class="badge badge-light">Light</span>
+            <span class="badge badge-pill badge-dark">Dark</span>
+        </div>
+        <div class="col-sm-4">
+<!-- Blue -->
+<div class="progress">
+  <div class="progress-bar progress-bar-striped" style="width:10%"></div>
+</div>
+ <br />
+<!-- Green -->
+<div class="progress">
+  <div class="progress-bar bg-success progress-bar-animated" style="width:20%"></div>
+</div>
+            <br />
+<!-- Turquoise -->
+<div class="progress">
+  <div class="progress-bar bg-info progress-bar-animated" style="width:30%"></div>
+</div>
+            <br />
+<!-- Orange -->
+<div class="progress">
+   <div class="progress-bar bg-warning" style="width:40%"></div>
+</div>
+            <br />
+<!-- Red -->
+<div class="progress">
+  <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:50%"></div>
+</div>
+            <br />
+<!-- Dark Grey -->
+<div class="progress">
+  <div class="progress-bar bg-dark" style="width:90%"></div>
+</div> 
+        </div>
+        <div class="col-sm-5">
+            <div class="spinner-border spinner-border-sm text-muted"></div>
+            <div class="spinner-border text-primary"></div>
+            <div class="spinner-grow text-success"></div>
+            <div class="spinner-border text-info"></div>
+            <div class="spinner-border text-warning"></div>
+            <div class="spinner-grow text-danger"></div>
+            <div class="spinner-border text-secondary"></div>
+            <div class="spinner-border spinner-border-sm text-dark"></div>
+            <div class="spinner-grow text-light"></div>
+        </div>
+    </div><br />
+    <div class="row">
+        <div class="col-xs-4">
+            <ul class="pagination pagination-lg">
+              <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item active"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          <ul class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Fotos</a></li>
+          <li class="breadcrumb-item"><a href="#">Whatsapp</a></li>
+          <li class="breadcrumb-item"><a href="#">Clases</a></li>
+          <li class="breadcrumb-item active">Programacion Aplicada II</li>
+        </ul> 
+        </div>
+        <div class="col-sm-3">
+             <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center list-group-item-success">
+                Inbox
+                <span class="badge badge-primary badge-pill">12</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Ads
+                <span class="badge badge-primary badge-pill">50</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Junk
+                <span class="badge badge-primary badge-pill">99</span>
+              </li>
+            </ul> 
+        </div>
+        <div class="col-xs-5">
+            <div class="card" style="width:400px">
+              <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar1.png" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+              </div>
+             </div>
+        </div>
+    </div>
+    <div class="row">
+        <%--dropdown--%>
+    </div>
   <blockquote class="blockquote">
     <p>Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web.</p>
     <footer class="blockquote-footer">De Bootstrap Wikipedia</footer>
